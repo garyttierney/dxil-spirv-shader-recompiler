@@ -1,0 +1,13 @@
+[package]
+name = "dxil-spirv-shader-recompiler-sys"
+version = "0.1.0"
+edition = "2024"
+description = "Bindings to dxil-spirv and SPIRV-Tools' linker and optimizer, built from source and linked statically"
+links = "dxil-spirv-shader-recompiler"
+
+[dependencies]
+cxx = "1"
+
+[build-dependencies]
+cmake = "0.1"
+cxx-build = "1"

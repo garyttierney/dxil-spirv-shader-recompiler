@@ -1,0 +1,3 @@
+[submodule "dxil-spirv-sys/dxil-spirv"]
+	path = dxil-spirv-shader-recompiler-sys/dxil-spirv
+	url = https://github.com/HansKristian-Work/dxil-spirv

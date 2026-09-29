@@ -1,0 +1,12 @@
+[workspace]
+members = [".", "dxil-spirv-shader-recompiler-sys"]
+
+[package]
+name = "dxil-spirv-shader-recompiler"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow = "1.0.104"
+dxil-spirv-shader-recompiler-sys = { path = "dxil-spirv-shader-recompiler-sys" }
+rspirv = "0.13.0"
